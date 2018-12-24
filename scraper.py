@@ -9,7 +9,6 @@ session_requests = requests.session()
 # Setup
 result = session_requests.get(LOGIN_URL)
 tree = html.fromstring(result.text)
-teacher_to_student = False
 
 # Set initial user ID
 userid = 1
